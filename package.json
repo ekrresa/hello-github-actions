@@ -1,0 +1,23 @@
+{
+  "name": "hello-github-actions",
+  "version": "1.0.0",
+  "description": "github actions 101",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekrresa/hello-github-actions.git"
+  },
+  "author": "Ochuko Ekrresa <kelvinekrresa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekrresa/hello-github-actions/issues"
+  },
+  "homepage": "https://github.com/ekrresa/hello-github-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.1"
+  }
+}
